@@ -2268,10 +2268,12 @@ body {
 }
 
 .socials {
-    color: #f1b84b;
+    /* color: #f1b84b;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex; */
+    padding:100px;
+    
 }
 
 .socials--alt {
@@ -4277,6 +4279,9 @@ body {
     color: #eee
 }
 
+
+
+
 .footer_main-block .link--underline:after {
     content: '';
     position: absolute;
@@ -4300,7 +4305,11 @@ body {
 }
 
 .footer_main-block_socials {
-    gap: 30px
+    /* gap: 30px; */
+    display: flex;
+    justify-content: center; /* untuk meletakkan daftar di tengah horizontal */
+    align-items: center; /* untuk meletakkan daftar di tengah vertical */
+    list-style: none;
 }
 
 .footer_main-block_content {
@@ -4527,7 +4536,7 @@ body {
 
 @media screen and (min-width: 1599.98px) {
     .footer {
-        padding:150px 0
+        padding:50px 0
     }
 
     .footer_bg {
