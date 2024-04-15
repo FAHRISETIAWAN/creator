@@ -2276,6 +2276,13 @@ body {
     
 }
 
+.socials_early {
+    color: #f1b84b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .socials--alt {
     color: #1544c0
 }
@@ -4310,6 +4317,10 @@ body {
     justify-content: center; /* untuk meletakkan daftar di tengah horizontal */
     align-items: center; /* untuk meletakkan daftar di tengah vertical */
     list-style: none;
+}
+
+.footer_main-block_socials_early {
+    gap: 30px;
 }
 
 .footer_main-block_content {
