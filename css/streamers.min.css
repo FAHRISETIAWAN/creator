@@ -3660,7 +3660,7 @@ body {
 }
 
 .about_main .description .main_text {
-    margin-left: -45px
+    /* margin-left: -45px */
 }
 
 .about_main .description .main_text .emoji {
