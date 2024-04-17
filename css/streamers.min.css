@@ -3660,7 +3660,7 @@ body {
 }
 
 .about_main .description .main_text {
-    margin-left: -45px
+    /* margin-left: -45px */
 }
 
 .about_main .description .main_text .emoji {
@@ -4218,7 +4218,24 @@ body {
     }
 
     .channels_content-display .swiper-nav .link,.channels_content-display .swiper-slide .media {
-        height: 300px
+        height: 700px;
+        width:400px
+    }
+
+    .insights_slider {
+        margin-left: 400px;
+        margin-right: -170px
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .channels_content-display .swiper {
+        margin-right:-140px
+    }
+
+    .channels_content-display .swiper-nav .link,.channels_content-display .swiper-slide .media {
+        height: 700px
     }
 
     .insights_slider {
