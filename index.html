@@ -11,6 +11,16 @@
         <link rel=stylesheet href=css/streamers.min.css>
         <link rel=stylesheet href=css/floatbutton.min.css>
         <link rel=stylesheet href=css/about.min.css>
+
+   <style>
+      .line {
+    width: 40%; /* Panjang garis */
+    height: 3px; /* Ketebalan garis */
+    background-color: rgb(143, 29, 158); /* Warna garis */
+    margin: 20px 0; /* Margin atas dan bawah */
+}
+   </style>
+
     </head>
     <body>
         <header class=header data-page=streamers data-page-parent=home>
@@ -25,7 +35,7 @@
                     <span class=header_logo-wrapper>
                         <img src=img/logo.png alt=UpCreators>
                     </span>
-                    <span class=text>Creators</span>
+                    
                 </a>
                 <nav class="header_nav text--medium text--md collapse" id=headerMenu>
                     <ul class=header_nav-list>
@@ -57,7 +67,7 @@
                             </a>
                         </li>
                         <li class=header_nav-list_item>
-                            <a class="nav-item nav-link" href="#features" data-page=about data-single=true>
+                            <a class="nav-item nav-link" href="#feature" data-page=about data-single=true>
                                 <span class=nav-item_text>Features</span>
                             </a>
                         </li>
@@ -207,10 +217,10 @@
                 <div class=container>
                     <h1 class="hero_title extra glitch" data-text="what's on-air?">what's on-air?</h1>
                     <div class=hero_media>
-                        <picture>
+                        <!-- <picture>
                             <source data-srcset=img/streamers/girl.webp srcset=img/streamers/girl.webp type=image/webp>
                             <img class=lazy data-src=img/streamers/girl.png src=img/streamers/girl.png alt=media>
-                        </picture>
+                        </picture> -->
                     </div>
                 </div>
             </section>
@@ -262,7 +272,7 @@
                     </div>
                 </div>  
             </div> -->
-            <section class="join section">
+            <section class="join section" id="about">
                 <div class=container>
                     <div class=join_media data-aos=fade-right>
                       
@@ -273,13 +283,13 @@
                     </div>
                     <div class=join_main>
                         <div class=join_main-header>
-                            <div class="main_title h2">Streamy: Where <span class="highlight highlight--purple" data-aos=fade-left data-aos-delay=50 style="color: blueviolet;">Creativity Meets Control</span>
-                            </div>
-                            
-                          
+                            <div class="main_title h2">Streamy AI: Unleashing the <span class="highlight highlight--purple" data-aos="fade-left" data-aos-delay="50" style="color: blueviolet;">Power of AI</span> for Your Ultimate Viewing Experience!</div>
+                            <div class="line"></div>
+                                       
                         </div>
                         <p class="main_text text--md" style="text-align: justify;">
-                            Streamy is an innovative platform that aims to revolutionize the content creation and monetization landscape by leveraging blockchain technology and Artificial intelligence (AI). We believe that AI should not control humans, but humans should control AI. and we can also utilize the blockchain network for transparent payment purposes
+                            Streamy is an innovative platform that aims to revolutionize the content creation and monetization landscape by leveraging blockchain technology and Artificial intelligence (AI). We believe that AI should not control humans, but humans should control AI. and we can also utilize the blockchain network for transparent payment purposes , <br/>
+                            The Streamy AI Platform represents a paradigm shift in the way video content is created, distributed, and consumed. By harnessing the power of AI and Blockchain, it empowers content creators to unlock new levels of creativity, efficiency, and audience engagement .
                         </p>
                         <!-- <p class="join_main-text text--md" data-aos=fade-left data-aos-delay=100>Maecenas blandit ante elit, eu convallis ligula condimentum ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque ante tortor, vulputate sit amet arcu</p> -->
                     </div>
@@ -1836,7 +1846,7 @@
                 </div>
             </section>
 
-            <div class="services section">
+            <div class="services section" id="feature">
                 <div class=container>
                     <h2 class="h1 linebreak outlined outlined--black" style="text-align: center;">Key Feature</h2>
                     <ul class=services_list>
@@ -2001,7 +2011,7 @@
                 </div>
             </section>
         </main>
-        <div class="ticker yellow">
+        <div class="ticker yellow" id="tokenomic">
             <div class=d-none>
                 <span class=ticker-item>total supply : 1.000.000.000</span>
                 <span class=ticker-item>liquidity 85 %</span>
